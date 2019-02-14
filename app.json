@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "MORSE RTLH",
+    "description": "Aplikasi MORSE RTLH (Monitoring Rumah Swadaya Elektronik Rumah Tidak Layak Huni) Kabupaten Gresik",
+    "slug": "morse-rtlh",
+    "splash": {
+        "backgroundColor": "#FFFFFF",
+        "resizeMode": "contain",
+        "image": "./assets/logo-pemantauan/splashscreen.png"
+    },
+    "notification": {
+        "icon": "./assets/logo-pemantauan/app-icon-notif.png",
+        "color": "#000000",
+        "androidMode": "collapse",
+        "androidCollapsedTitle": "#{unread_notifications} new notifications"
+    },
+    "sdkVersion": "28.0.0",
+    "icon": "./assets/logo-pemantauan/app-icon.png",
+	"android": {
+      "package": "com.jelajah123.morsertlh",
+      "versionCode": 1,
+      "permissions": [
+          "ACCESS_COARSE_LOCATION",
+          "ACCESS_FINE_LOCATION",
+          "CAMERA",
+          "MANAGE_DOCUMENTS",
+          "READ_EXTERNAL_STORAGE",
+          "READ_PHONE_STATE",
+          "WRITE_EXTERNAL_STORAGE"
+      ],      
+	  "config": {
+		"googleMaps": {
+			"apiKey": "AIzaSyDgfxsYbepqPXdql_o--h2hvDznaH8ZGW8"
+		}
+	  }
+    },
+	"ios": {
+      "bundleIdentifier": "com.jelajah123.morsertlh",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#334393"
+    },
+  }
+}
